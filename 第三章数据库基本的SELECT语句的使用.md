@@ -6,5 +6,15 @@
 ==**DML**==（Data Manipulation Language，数据操作语言）例如INSERT，DELETE，UPDATE，==***SELECT***==等等。
 ==**DCL**==（Data Control Language，数据控制语言）例如GRANT，REVOKE，COMMIT，ROLLBACK，SAVEPOINT等等。
 
+3.SQL语言的规则与规范
+规则是必须遵守，规范是建议遵守
+==**规则：**==
+USE dbtest2;
+SELECT * FROM emp;
+INSERT INTO emp VALUES(1002，'TOM');
+①SQL可以写在一行或多行。为了提高可读性，各子句分行写，必要时使用缩进
+②每条命令以 ; 或 ==\g== 或 ==\G== 结束
+③
+
 
 
