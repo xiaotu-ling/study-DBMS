@@ -41,12 +41,12 @@
          ②==SELECT   字段   FROM  表名==; 例如**SELECT * FROM employees;**  * 是代表所有列，也就是所有字段。
     3.列的别名
          SELECT employee_id,last_name,department_id FROM employees;
-         ![[屏幕截图 2026-05-29 161442 1.png]]
+         ![[屏幕截图 2026-05-29 161442 1.png|176]]
          SELECT employee_id ==emp_id==,last_name ==AS lname==,department_id FROM employees;
          (两个黄色高亮意思一样都是别名的意思，AS也就是alias(别名)，可以省略)
-         ![[屏幕截图 2026-05-29 161835.png]]
-         或者用双引号引起来
-         
+         ![[屏幕截图 2026-05-29 161835.png|175]]
+         或者用双引号引起来和上述效果一致!
+         SELECT employee_id ==''emp_id''==,last_name ==''lname''==,department_id FROM employees;
 
   
 
