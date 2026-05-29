@@ -38,7 +38,9 @@
     1.导入现有的数据表，表的数据：==source 文件的全路径==(这个要使用命令行，用cmd面板) 或 ==基于具体的图形化界面的工具导入数据==
     2.基本的SELECT语句：
          ①==SELECT... ...== ：**SELECT 1；**，**SELECT 9/2；**
-         ②==SELECT   字段   FROM  表名==; 例如**SELECT * FROM employees;** ==*== 是代表所有列，也就是所有字段。
+         ②==SELECT   字段   FROM  表名==; 例如**SELECT * FROM employees;**  * 是代表所有列，也就是所有字段。
+    3.列的别名
+         SELECT employee_id,last_name,department_id FROM employees;
 
    
 
