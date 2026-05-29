@@ -41,8 +41,10 @@
          ②==SELECT   字段   FROM  表名==; 例如**SELECT * FROM employees;**  * 是代表所有列，也就是所有字段。
     3.列的别名
          SELECT employee_id,last_name,department_id FROM employees;
+         ![[屏幕截图 2026-05-29 161442 1.png]]
+         SELECT employee_id,last)name,department_id FROM employees;
 
-   
+  
 
 
 
