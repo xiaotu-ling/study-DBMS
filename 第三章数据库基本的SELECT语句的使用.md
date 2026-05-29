@@ -45,6 +45,7 @@
          SELECT employee_id ==emp_id==,last_name ==AS lname==,department_id FROM employees;
          (两个黄色高亮意思一样都是别名的意思，AS也就是alias(别名)，可以省略)
          ![[屏幕截图 2026-05-29 161835.png]]
+         或者用双引号引起来
          
 
   
