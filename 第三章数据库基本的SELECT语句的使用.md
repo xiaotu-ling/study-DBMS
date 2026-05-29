@@ -16,6 +16,11 @@
         必须使用==英文状态==下的半角输入方式
         ==字符串型==和==日期时间类型==的数据可以使用==单引号==(' ')表示
         列的==别名==，尽量==使用双引号==(" ")，而且==不建议省略as==
+    两个==例句：==
+    ***NSERT INTO emp
+    VALUES(1003，'TOM');
+    SELECT employee_id ==''emp_id''==,last_name ==''lname''==,department_id 
+    FROM employees;
 
  2.==大小写规范：==
     ①==windows==下SQL对大小写==不敏感==,==linux==下对大小写==敏感==(数据库名，表名，表的别名，变量名严格区分；关键字，函数名，列名，列的别名是忽略大小写的。)
@@ -41,14 +46,51 @@
          ②==SELECT   字段   FROM  表名==; 例如**SELECT * FROM employees;**  * 是代表所有列，也就是所有字段。
     3.列的别名
          SELECT employee_id,last_name,department_id FROM employees;
-         ![[屏幕截图 2026-05-29 161442 1.png|176]]
+         ![[屏幕截图 2026-05-29 161442 1.png|160]]
          SELECT employee_id ==emp_id==,last_name ==AS lname==,department_id FROM employees;
          (两个黄色高亮意思一样都是别名的意思，AS也就是alias(别名)，可以省略)
-         ![[屏幕截图 2026-05-29 161835.png|175]]
-         或者用双引号引起来和上述效果一致!
+         ![[屏幕截图 2026-05-29 161835.png|158]]
+         或者用双引号引起来,==不要使用单引号==和上述效果一致!
          SELECT employee_id ==''emp_id''==,last_name ==''lname''==,department_id FROM employees;
-
-  
+    4.去除重复行
+        ①查询员工表里有多少个部门：
+        SELECT department_id
+        FROM employees;    
+            ![[屏幕截图 2026-05-29 175337.png]]
+        可以看见有很多重复的部门编号输出
+        ②使用DISTINCT去重：
+        SELECT ==DISTINCT== department_id
+        FROM employees;
+         ![[屏幕截图 2026-05-29 175517.png]]
+     5.空值参与运算:NULL
+        ==控制不等同于0==
+        SELECT employee_id,salary "月工资",salary * (1 + commission_pct) * 12 "年工资" 
+        FROM emloyees;
+        ![[屏幕截图 2026-05-29 180504.png|160]]
+        ==空值做运算后还是空值==
+        SELECT employee_id,salary "月工资",salary * (1 +  ==IFNULL(commission_pct,0)==) * 12 "年工资" 
+        FROM emloyees;
+        引入INFNULL来，如果是NULL，就拿0来替换。
+    6.着重号: 
+        SELECT * FROM ==着重号==order==着重号==;
+        当表明或字段与关键字一样是要加着重号
+    7.查询常数:
+        SELECT =='尚硅谷'==，employee_id,last_name
+        FROM employees;
+         ![[屏幕截图 2026-05-29 181503.png|278]]
+        在最前面一列加上了==常数== 尚硅谷。
+        SELECT =='尚硅谷'==,==123==,employee_id,last_name
+        FROM employees;
+        这样就在上面表里又加了一列123.
+    8.显示表结构:
+        ==DESCRIBE== employees;
+        ![[屏幕截图 2026-05-29 181915.png|345]]
+        显示了表中==字段的详细信息==，用DESC也行，DECS employees;
+        
+        
+     
+     
+     
 
 
 
