@@ -50,9 +50,9 @@
          SELECT employee_id ==emp_id==,last_name ==AS lname==,department_id FROM employees;
          (两个黄色高亮意思一样都是别名的意思，AS也就是alias(别名)，可以省略)
          ![[屏幕截图 2026-05-29 161835.png|158]]
-         或者用双引号引起来,==不要使用单引号==和上述效果一致!
+         或者用双引号引起来,==不要使用单引号==和上述效果一致。
          SELECT employee_id ==''emp_id''==,last_name ==''lname''==,department_id FROM employees;
-    4.去除重复行
+    4.去除重复行 ==DISTINCT==
         ①查询员工表里有多少个部门：
         SELECT department_id
         FROM employees;    
@@ -63,7 +63,7 @@
         FROM employees;
          ![[屏幕截图 2026-05-29 175517.png]]
      5.空值参与运算:NULL
-        ==控制不等同于0==
+        ==空值不等同于0==
         SELECT employee_id,salary "月工资",salary * (1 + commission_pct) * 12 "年工资" 
         FROM emloyees;
         ![[屏幕截图 2026-05-29 180504.png|160]]
@@ -86,10 +86,44 @@
         ==DESCRIBE== employees;
         ![[屏幕截图 2026-05-29 181915.png|345]]
         显示了表中==字段的详细信息==，用DESC也行，DECS employees;
-        
-        
+五.过滤数据：查询某些满足条件的数据。==WHERE==
+     1.查询部门号为90号员工的数据
+     SELECT * 
+     FROM employees 
+     ==WHERE== department_id = 90;
+     ![[屏幕截图 2026-05-30 205759.png]]
+     2.查询last_name为King的员工
+     SELECT * 
+     FROM employees 
+     ==WHERE== last_name = 'King';
+     ![[屏幕截图 2026-05-30 210014.png]]
+     ==WHERE在FROM后面==
      
-     
+六.课后习题
+     1.==查询员工12个月的工资总和，并起名为ANNUAL SALARY。==
+     SELECT employee_id,salary * (1 + IFNULL(commission_pct,0)) * 12 AS "ANNUAL SALARY"
+     FROM employees;
+     ![[屏幕截图 2026-05-30 211446.png]]
+     2.查询employees表中去除重复的奇偶比、_id以后的数据。
+     SELECT DISTINCT job_id
+     FROM employees;
+     ![[屏幕截图 2026-05-30 211719.png]]
+     3.查询工资大于12000的员工的姓名和工资。
+     SELECT first_name,last_name,salary
+     FROM employees
+     WHERE salary > 12000;
+     ![[屏幕截图 2026-05-30 211919.png]]
+     4.显示员工号为176的员工的姓名和部门号。
+     SELECT first_name,last_name,department_id
+     FROM employees
+     WHERE employee_id = 176;
+     ![[屏幕截图 2026-05-30 212135.png]]
+     5.显示表departments的结构，并查询其中的全部数据。
+     DESCRIBE departments;
+     SELECT * 
+     FROM departments;
+     ![[屏幕截图 2026-05-30 212345.png]]
+     ![[屏幕截图 2026-05-30 212401.png]]
      
 
 
