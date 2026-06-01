@@ -1,11 +1,9 @@
 一.**最开始从规范开始讲起，本章节以及后续章节都是讲==SQL==语句，本章节讲解的是SELECT语句。想要保证数据的==持久化==就要和数据库打交道。
 ***解释：DB（Database）相当于一个.docx文件，DBMS（Database Management System）相当于word这个软件，而SQL（Structured Query Language）是DBMS控制DB要用到的语言。***
-
 二.SQL语言分为三大类：
     1.==**DDL**==（Data Definition Language，数据定义语言）例如CREATE，DROP，ALTER，RENAME，TRUNCATE等等。
     2.==**DML**==（Data Manipulation Language，数据操作语言）例如INSERT，DELETE，UPDATE，==***SELECT***==等等。
     3.==**DCL**==（Data Control Language，数据控制语言）例如GRANT，REVOKE，COMMIT，ROLLBACK，SAVEPOINT等等。
-
 三.SQL语言的规则与规范(规则是必须遵守，规范是建议遵守)
  1.==**规则：**==
     ①SQL可以写在一行或多行。为了提高可读性，各子句分行写，必要时使用缩进
@@ -38,7 +36,6 @@
     ④同一个MySQL软件中，数据库不能同名；同一个库中，表不能重名；同一个表中，字段不能重名
      ⑤必须==保证自己的字段没有和保留字，数据库系统或常用方法冲突==，若要坚持使用，请在SQL语句中使用着重号引起来
     ⑥保持==字段名和类型的一致性==，在命名字段并为其指定数据类型的时候一定要保证一致性。假如数据类型在一个表里是整数，在另一个表里可别是字符型了。
-
 四.SELECT查询(要先有表，数据，才能进行查询)
     1.导入现有的数据表，表的数据：==source 文件的全路径==(这个要使用命令行，用cmd面板) 或 ==基于具体的图形化界面的工具导入数据==
     2.基本的SELECT语句：
@@ -97,8 +94,7 @@
      FROM employees 
      ==WHERE== last_name = 'King';
      ![[屏幕截图 2026-05-30 210014.png]]
-     ==WHERE在FROM后面==
-     
+     ==WHERE在FROM后面== 
 六.课后习题
      1.==查询员工12个月的工资总和，并起名为ANNUAL SALARY。==
      SELECT employee_id,salary * (1 + IFNULL(commission_pct,0)) * 12 AS "ANNUAL SALARY"
@@ -123,8 +119,7 @@
      SELECT * 
      FROM departments;
      ![[屏幕截图 2026-05-30 212345.png]]
-     ![[屏幕截图 2026-05-30 212401.png]]
-     
+     ![[屏幕截图 2026-05-30 212401.png]] 
 
 
 
