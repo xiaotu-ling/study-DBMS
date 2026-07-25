@@ -16,5 +16,4 @@
 二.Python开发工具
      VSCode 或 PyCharm
      使用开发工具来写Python入门工具
-     ![[Pasted image 20260725175021.png]]
-     
+      ![[Pasted image 20260725175021.png]]
