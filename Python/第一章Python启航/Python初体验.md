@@ -15,3 +15,4 @@
      在文件夹上方地址直接输入cmd打开控制面板这样就默认地址在这个文件![[Pasted image 20260725174430.png]]
 二.Python开发工具
      VSCode 或 PyCharm
+     使用开发工具来写Python入门工具
