@@ -25,12 +25,13 @@
              ![[Pasted image 20260813170932.png|516]]]
              ![[Pasted image 20260813171139.png]]
      2.常见数据类型
-         ![[Pasted image 20260813171303.png]]
-         ![[Pasted image 20260813171417.png]]
-         ![[Pasted image 20260813171518.png]]
-         ![[Pasted image 20260813171608.png|550]]
-         ![[Pasted image 20260813171645.png]]
-         ![[Pasted image 20260813171655.png]]
+         ==基础知识==:
+             ![[Pasted image 20260813171303.png]]
+             ![[Pasted image 20260813171417.png]]
+            ![[Pasted image 20260813171518.png]]
+             ![[Pasted image 20260813171608.png|550]]
+             ![[Pasted image 20260813171645.png]]
+             ![[Pasted image 20260813171655.png]]
          ==字符串类型详解==:
              
      3.输入与输出
