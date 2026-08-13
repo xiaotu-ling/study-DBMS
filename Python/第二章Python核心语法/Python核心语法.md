@@ -28,6 +28,7 @@
          ![[Pasted image 20260813171303.png]]
          ![[Pasted image 20260813171417.png]]
          ![[Pasted image 20260813171518.png]]
+         ![[Pasted image 20260813171608.png|550]]
          
      3.输入与输出
      4.运算符:为变量,函数,类等元素所起的名字
