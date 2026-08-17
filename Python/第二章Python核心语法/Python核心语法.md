@@ -123,11 +123,12 @@
          ![[Pasted image 20260817193755.png]]
          ![[Pasted image 20260817193805.png]]
          ![[Pasted image 20260817193902.png|552]]
-         ![[Pasted image 20260817194348.png]]
-         ![[Pasted image 20260817194357.png]]
-         但是如果被除数为零会报错,此时让" / "的case加一个条件判断语句: if second != 0就可以了
-         ![[Pasted image 20260817194638.png]]
-         ![[Pasted image 20260817194629.png]]
+            ![[Pasted image 20260817194348.png]]
+            ![[Pasted image 20260817194357.png]]
+            但是如果==被除数为零会报错==,此时让" / "的case加一个条件判断语句: if second != 0就可以了
+            ![[Pasted image 20260817194638.png]]
+            ![[Pasted image 20260817194629.png]]
+            ![[Pasted image 20260817194701.png]]
      3.循环
 三.数据存储容器
 四.函数
