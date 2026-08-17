@@ -109,13 +109,15 @@
               if 要判断的条件 :
                   条件成立时,要执行的对应操作
               ![[Pasted image 20260817184643.png]]
-              ![[Pasted image 20260817184901.png]]
+              ![[Pasted image 20260817184901.png|509]]
               ![[Pasted image 20260817185335.png]]
               ![[Pasted image 20260817185532.png]]
               ![[Pasted image 20260817185521.png]]
               ![[Pasted image 20260817185846.png]]
               ==进阶== : if...elif...else
               ![[Pasted image 20260817190359.png]]
+          案例:
+              ![[Pasted image 20260817191744.png|509]]
      2.模式匹配
      3.循环
 三.数据存储容器
