@@ -153,11 +153,13 @@
                  ==print语句自带换行操作==,所以要在后面加上end = ""来代替end = " \ n"这个换行操作才能实现一行多个输出.
                  ![[Pasted image 20260818155143.png]]
             ![[Pasted image 20260818155307.png]]
-                 
+                 ![[Pasted image 20260818160333.png]]
+                 ![[Pasted image 20260818160341.png|476]]
          案例
              ①![[Pasted image 20260818150922.png]]
                  ![[Pasted image 20260818151250.png]]
                  ![[Pasted image 20260818151257.png]]
+             ②
 三.数据存储容器
 四.函数
 五.面向对象基础
