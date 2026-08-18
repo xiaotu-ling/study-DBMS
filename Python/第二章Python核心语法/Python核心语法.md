@@ -160,7 +160,9 @@
                  ![[Pasted image 20260818151250.png]]
                  ![[Pasted image 20260818151257.png]]
              ②![[Pasted image 20260818160604.png|556]]
-                 ![[Pasted image 20260818161340.png]]
+                ![[Pasted image 20260818161608.png]]
+                ==break== : 直接跳出循环结束
+                ==continue== : 跳出该轮循环开始下一轮循环
 三.数据存储容器
 四.函数
 五.面向对象基础
