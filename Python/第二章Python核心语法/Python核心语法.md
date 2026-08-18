@@ -149,7 +149,9 @@
                      ![[Pasted image 20260818153117.png]]
          嵌套循环
              ![[Pasted image 20260818154114.png]]
-                 
+                 ![[Pasted image 20260818155027.png]]
+                 ==print语句自带换行操作==,所以要在后面加上end = ""来代替end = " \ n"这个换行操作才能实现一行多个输出.
+                 ![[Pasted image 20260818155143.png]]
          案例
              ①![[Pasted image 20260818150922.png]]
                  ![[Pasted image 20260818151250.png]]
