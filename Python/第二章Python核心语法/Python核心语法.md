@@ -136,8 +136,10 @@
               ![[Pasted image 20260818150727.png]]
               ![[Pasted image 20260818150739.png]]
          for循环:本质是轮询遍历机制,对一批内容进行逐个处理,循环次数是取决于处理内容有多少
-             ![[Pasted image 20260818151630.png]]
-             ![[Pasted image 20260818151659.png]]
+            流程:
+                ![[Pasted image 20260818151630.png]]
+            结构:
+                ![[Pasted image 20260818151659.png]]
              ![[Pasted image 20260818151815.png]]
                  ![[Pasted image 20260818152005.png]]
                  ![[Pasted image 20260818152014.png]]
