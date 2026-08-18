@@ -130,16 +130,19 @@
             ![[Pasted image 20260817194629.png]]
             ![[Pasted image 20260817194701.png]]
      3.循环
-         while循环
+         while循环:通过条件表达式来控制是否进行下一次循环
               ![[Pasted image 20260818145600.png]]
               ![[Pasted image 20260818145832.png]]
               ![[Pasted image 20260818150727.png]]
               ![[Pasted image 20260818150739.png]]
-         for循环
+         for循环:本质是轮询遍历机制,对一批内容进行逐个处理,循环次数是取决于处理内容有多少
+             
+             
          嵌套循环
          案例
              ①![[Pasted image 20260818150922.png]]
-                 
+                 ![[Pasted image 20260818151250.png]]
+                 ![[Pasted image 20260818151257.png]]
 三.数据存储容器
 四.函数
 五.面向对象基础
