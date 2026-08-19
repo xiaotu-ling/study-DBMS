@@ -192,6 +192,10 @@
                  ![[Pasted image 20260819195226.png|479]]
                  列表的常见方法 : 添加元素 , 删除元素 , 排序等等
                  ![[Pasted image 20260819195342.png|539]]
+                 ![[Pasted image 20260819200054.png]]
+                 ![[Pasted image 20260819200203.png]]
+             列表案例 : 
+                 ①![[Pasted image 20260819200240.png]]
                  
          1.2 : 字符串str
          1.3 : 元组tuple
