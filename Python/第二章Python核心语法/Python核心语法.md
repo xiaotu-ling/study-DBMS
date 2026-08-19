@@ -176,10 +176,13 @@
                  ![[Pasted image 20260819191620.png|461]]
                  ![[Pasted image 20260819191640.png|463]]
                  正向索引是从零开始,反向索引从-1开始
-            ![[Pasted image 20260819192219.png]]
-            ![[Pasted image 20260819192236.png]]
-            ![[Pasted image 20260819192411.png]]
-            ![[Pasted image 20260819192401.png]]
+                ![[Pasted image 20260819192219.png]]
+                ![[Pasted image 20260819192236.png]]
+                ![[Pasted image 20260819192411.png]]
+                ![[Pasted image 20260819192401.png]]
+            列表切片:对操作的数据截取其中一部分的操作,列表,字符串,元组都支持切片操作
+                 ![[Pasted image 20260819192637.png]]
+                 
          1.2 : 字符串str
          1.3 : 元组tuple
          1.4 : 集合set
