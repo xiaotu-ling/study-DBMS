@@ -186,6 +186,8 @@
                  [开始索引,结束索引,步长] : 左闭右开 , 步长默认是1
                  ![[Pasted image 20260819193040.png]]
                  ![[Pasted image 20260819193050.png]]
+                 ![[Pasted image 20260819193332.png]]
+                 ![[Pasted image 20260819193339.png]]
          1.2 : 字符串str
          1.3 : 元组tuple
          1.4 : 集合set
