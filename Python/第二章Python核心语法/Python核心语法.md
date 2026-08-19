@@ -178,6 +178,8 @@
                  正向索引是从零开始,反向索引从-1开始
             ![[Pasted image 20260819192219.png]]
             ![[Pasted image 20260819192236.png]]
+            ![[Pasted image 20260819192411.png]]
+            ![[Pasted image 20260819192401.png]]
          1.2 : 字符串str
          1.3 : 元组tuple
          1.4 : 集合set
