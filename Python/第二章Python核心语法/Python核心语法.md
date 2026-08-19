@@ -195,9 +195,13 @@
                  ![[Pasted image 20260819200054.png]]
                  ![[Pasted image 20260819200203.png]]
              列表案例 : 
-                 ①![[Pasted image 20260819200240.png]]
-                 ![[Pasted image 20260819200850.png]]
-                 ![[Pasted image 20260819200907.png]]
+                 ①                
+                    ![[Pasted image 20260819200240.png|552]]
+                    ![[Pasted image 20260819200850.png]]
+                    ![[Pasted image 20260819200907.png]]
+                ②  
+                    ![[Pasted image 20260819201233.png]]
+                    
          1.2 : 字符串str
          1.3 : 元组tuple
          1.4 : 集合set
