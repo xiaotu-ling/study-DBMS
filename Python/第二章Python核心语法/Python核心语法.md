@@ -194,7 +194,7 @@
                  ![[Pasted image 20260819195342.png|539]]
                  ![[Pasted image 20260819200054.png]]
                  ![[Pasted image 20260819200203.png]]
-             列表案例 : if 元素 in 列表 可以实现判断列表中是否有这个元素
+             列表案例 : ==if 元素 in 列表== 可以实现判断列表中是否有这个元素
                  ①                ![[Pasted image 20260819200240.png|552]]
                     ![[Pasted image 20260819200850.png]]
                     ![[Pasted image 20260819200907.png]]
@@ -206,7 +206,15 @@
                     b . ==还可以更简化== : 
                         ![[Pasted image 20260819203838.png]]
                 ③ ![[Pasted image 20260819204052.png|539]]
-                      
+                      ![[Pasted image 20260819204734.png|491]]
+                      ![[Pasted image 20260819204745.png|501]]
+                      ==使用列表推导式简化第一问== : 按照一定的规则快速生成一个列表的方法
+                         语法 : 列表 = [要插入的值 for i in 序列/列表 if 条件]
+                         num_list1 = [i ** 2 for i in range(1,21)]
+                      ==使用列表推导式简化第二问== : 
+                         new_list1 = [i ** 2 for i in range(1,21) if i % 2 == 0]
+            ![[Pasted image 20260819205310.png]]
+            ![[Pasted image 20260819205335.png|460]]
          1.2 : 字符串str
          1.3 : 元组tuple
          1.4 : 集合set
