@@ -216,6 +216,7 @@
             ![[Pasted image 20260819205310.png]]
             ![[Pasted image 20260819205335.png|460]]
          1.2 : 字符串str
+             特点与基本操作
          1.3 : 元组tuple
          1.4 : 集合set
          1,5 : 字典dict
