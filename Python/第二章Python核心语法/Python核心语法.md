@@ -232,6 +232,8 @@
                  ![[Pasted image 20260820183418.png]]
              案例
                  ![[Pasted image 20260820183706.png|545]]
+                 ![[Pasted image 20260820184130.png]]
+                 ![[Pasted image 20260820184143.png]]
                  
          1.3 : 元组tuple
          1.4 : 集合set
