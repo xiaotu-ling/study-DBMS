@@ -227,6 +227,8 @@
                      ![[Pasted image 20260820182020.png|508]]
                 ![[Pasted image 20260820182431.png]]
              常用方法
+                 ![[Pasted image 20260820182655.png|546]]
+                 
              案例
          1.3 : 元组tuple
          1.4 : 集合set
