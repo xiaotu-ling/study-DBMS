@@ -225,6 +225,7 @@
                      ![[Pasted image 20260820181855.png]]
                  ③基本操作 : 切片
                      ![[Pasted image 20260820182020.png|508]]
+                ![[Pasted image 20260820182431.png]]
              常用方法
              案例
          1.3 : 元组tuple
