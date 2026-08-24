@@ -249,7 +249,7 @@
                  ![[Pasted image 20260824133443.png|544]]
                  ![[Pasted image 20260824134009.png]]
                  ![[Pasted image 20260824134021.png]]
-            案例 : 
+             案例 : 
                 1.a,b分别为10,20,将它们的值互换
                     ![[Pasted image 20260824134629.png|542]]
                     ![[Pasted image 20260824134639.png]]
