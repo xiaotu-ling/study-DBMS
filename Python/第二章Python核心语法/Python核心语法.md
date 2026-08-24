@@ -250,7 +250,8 @@
                  ![[Pasted image 20260824134009.png]]
                  ![[Pasted image 20260824134021.png]]
             案例 : a,b分别为10,20,将它们的值互换
-                 
+                 ![[Pasted image 20260824134629.png|542]]
+                 ![[Pasted image 20260824134639.png]]
          1.4 : 集合set
          1,5 : 字典dict
 四.函数
