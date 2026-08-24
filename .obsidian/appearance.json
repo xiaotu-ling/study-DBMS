@@ -1,1 +1,5 @@
-{}
+{
+  "theme": "moonstone",
+  "accentColor": "#201f23",
+  "interfaceFontFamily": "正楷"
+}
