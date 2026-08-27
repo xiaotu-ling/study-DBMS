@@ -274,6 +274,10 @@
                   输出没有顺序,而且自动去重.
              集合的常见方法 : 
                  ![[Pasted image 20260827202821.png|474]]
+                 ![[Pasted image 20260827203345.png]]
+                 ![[Pasted image 20260827203358.png]]
+                 ![[Pasted image 20260827203452.png]]
+                 ![[Pasted image 20260827203500.png|237]]
                  
          1,5 : 字典dict
 四.函数
