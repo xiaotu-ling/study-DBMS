@@ -301,6 +301,8 @@
              ![[Pasted image 20260828141512.png]]
              字典的常用操作
                  ![[Pasted image 20260828141559.png|480]]
+                 ![[Pasted image 20260828143413.png|485]]
+                 ![[Pasted image 20260828143429.png|479]]
              案例
              
 四.函数
