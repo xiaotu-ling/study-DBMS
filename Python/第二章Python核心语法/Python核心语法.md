@@ -287,7 +287,7 @@
                 ![[Pasted image 20260827210021.png]]
          1,5 : 字典dict
              Python中的字典,存储键值对(key : value)类型的数据,可以根据键(key)找到对应的值value,键(key)不能重复,可修改
-             可以直接用 key in dict来判断键在不在字典里,不会被键后面的值影响
+             可以==直接用 key in dict来判断键在不在字典里==,不会被键后面的值影响
              ![[Pasted image 20260828135735.png|519]]
              ![[Pasted image 20260828135942.png|516]]
              字典的定义
@@ -305,6 +305,9 @@
                  ![[Pasted image 20260828143841.png|474]]
              案例
                  ![[Pasted image 20260828144334.png|467]] 
-                 
+                 ![[Pasted image 20260828152612.png|478]]
+                 ![[Pasted image 20260828152635.png|481]]
+                 ![[Pasted image 20260828152650.png|475]]
+                 ![[Pasted image 20260828152712.png|479]]
 四.函数
 五.面向对象基础
