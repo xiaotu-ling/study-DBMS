@@ -288,6 +288,8 @@
          1,5 : 字典dict
              Python中的字典,存储键值对(key : value)类型的数据,可以根据键(key)找到对应的值value 
              ![[Pasted image 20260828135735.png|519]]
+             ![[Pasted image 20260828135942.png|516]]
+             
              
 四.函数
 五.面向对象基础
