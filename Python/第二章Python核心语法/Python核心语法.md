@@ -286,10 +286,13 @@
                 ④ : 可以使用集合推导式快速构建集合 --> {要添加进集合的元素 for s in 集合 if 条件}
                 ![[Pasted image 20260827210021.png]]
          1,5 : 字典dict
-             Python中的字典,存储键值对(key : value)类型的数据,可以根据键(key)找到对应的值value 
+             Python中的字典,存储键值对(key : value)类型的数据,可以根据键(key)找到对应的值value,键(key)不能重复,可修改
              ![[Pasted image 20260828135735.png|519]]
              ![[Pasted image 20260828135942.png|516]]
-             
+             字典的定义
+                 ![[Pasted image 20260828140231.png]]
+             字典的常用操作
+             案例
              
 四.函数
 五.面向对象基础
