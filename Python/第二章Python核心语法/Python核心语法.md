@@ -495,5 +495,10 @@
              那么我们可以实现,让模块里的测试代码只在该模块里运行(如果不实现这个,那么在导入模块时会一起执行模块里能运行的代码,例如测试代码)
              ![[Pasted image 20260901105611.png]]
              只有运行my_func模块这个条件才达成,在别的模块调用my_fuc模块时__ name __ 为my_fuc
+         ⑥__ all __ :
+              from random import * 是导入这个模块的所有功能
+            ![[Pasted image 20260901110759.png|547]]
+            例如我在my_func.py里写:
+            ____ all __ = ["log_separator1","log_separator2"]__ , 那在main.py里from random import * 时就只会导入log_separator1和log_separator2两个功能了
      4 . 软件包(package)
 八.面向对象基础
